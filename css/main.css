@@ -1,0 +1,59 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:25px;
+    font-family: 'Open sans', sans-serif;
+}
+
+.logo{
+    float:left;
+    max-width:100%;
+}
+
+.heading{
+    text-align:right;
+    float:right;
+    font-family: 'Lato', sans-serif;
+ 	color: ##2d3c49;
+}
+
+h1{
+    font-size:50px;
+    margin:0px;
+    font-weight:200;
+}
+
+h2{
+    margin:0px;
+    font-weight:200;
+}
+
+.box{
+    position:relative;
+    width: 33.333333%;
+    float:left;
+    height:250px;
+    padding:15px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:25px;
+    margin-bottom:50px;
+}
+
+.portfolio{
+    color:#7d97ad;
+    margin-top:25px;
+    margin-bottom:25px;
+    text-align:left;
+}
+
+
+@media screen and (max-width: 980px) {
+	.box{
+        width: 33.333333%;
+	}
+
+@media screen and (max-width: 768px) {
+	.box{
+        width: 100%;
+	}
