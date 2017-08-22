@@ -23,15 +23,17 @@ h1 {
     font-weight: 200;
 }
 
-h2 {
+p {
     margin: 0px;
     font-weight: 200;
+    font-size:25px;
 }
 
 .box {
     position: relative;
-    width: 33.333333%;
+    width: 33.33333%;
     float: left;
+    background-size:contain;
     height: 250px;
     padding: 15px;
     box-sizing: border-box;
@@ -40,13 +42,21 @@ h2 {
     margin-bottom: 50px;
 }
 
+.project_img {
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+}
+
 .portfolio {
+    height: auto;
+    background-size: cover;
+    background-position: center;
     color: #7d97ad;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: left;
 }
-
 
 @media screen and (max-width: 980px) {
 	.box {
@@ -57,3 +67,4 @@ h2 {
 	.box {
         width: 100%;
 	}
+
