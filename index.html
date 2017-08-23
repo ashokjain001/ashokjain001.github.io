@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -10,45 +11,46 @@
     <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/main.css">
+
   </head>
+
   <body>
 
         <div class="container">
 
-                <div class="row">
+            <div class="row">
 
-                    <header>
+                <header>
 
-                        <div class="col-md-4 logo">
-                            <img src="image/udacity.svg" alt="Udacity" height="130px">
-                        </div>
+                    <div class="col-md-4 logo">
+                        <img src="image/udacity.svg" alt="Udacity" height="130px">
+                    </div>
 
-                        <div class="col-md-8 heading">
-                            <h1>DIVEYE ASHOK JAIN</h1>
-                            <p>FULLSTACK NINJA</p>
-                        </div>
+                    <div class="col-md-8 heading">
+                        <h1>DIVEYE ASHOK JAIN</h1>
+                        <p>FULLSTACK NINJA</p>
+                    </div>
 
-                    </header>
+                </header>
 
-                </div>
+            </div>
 
-            <hr/>
+                <!--Project display section-->
+                <section class="main">
+                    <hr/>
+                    <div class="portfolio">
+                        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/130512-M-AR635-003_%288738896464%29.jpg/1280px-130512-M-AR635-003_%288738896464%29.jpg" alt="Udacity" >
+                    </div>
 
-            <section>
+                    <div class="portfolio">
+                        <p>Udacity Portfolio</p>
+                    </div>
 
-                <div class="portfolio">
-                    <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/130512-M-AR635-003_%288738896464%29.jpg/1280px-130512-M-AR635-003_%288738896464%29.jpg" alt="Udacity" >
-                </div>
-
-                 <div class="portfolio">
-                    <p>Udacity Portfolio</p>
-                 </div>
-
-                 <div class="row">
+                    <div class="row">
 
                         <div class="col-md-4 col-sm-4 box">
-                            <img class="img-responsive project_img" src="image/ashok_cropped.JPG" alt="About" width="100%"  height="100%">
-                            <a href=#>About</a>
+                            <img class="img-responsive project_img" src="image/ashok_cropped.JPG" alt="About" width="100%"  height="100%" data-toggle="modal" data-target="#about_modal">
+                            <a href=# >About</a>
                         </div>
 
                         <div class="col-md-4 col-sm-4 box">
@@ -61,16 +63,61 @@
                             <a href=#>Bokeh</a>
                         </div>
 
-                 </div>
+                    </div>
 
-            </section>
+                </section>
+
+
+                <footer>
+
+                    <hr/>
+
+               </footer>
+
+                <!--Modal-->
+                    <div class="modal fade" id="about_modal" tabindex="-1" role="dialog" aria-hidden="true">
+
+                      <div class="modal-dialog modal-lg" role="document">
+
+                        <div class="modal-content">
+
+                          <div class="modal-header">
+
+                            <h2 class="modal-title">About Ashok!</h2>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                              <span aria-hidden="true">&times;</span>
+
+                            </button>
+
+                          </div>
+
+                          <div class="modal-body">
+                            <p1>Hey, My name is Diveye Ashok Jain. I am a aspiring fullstack engineer and currently working on my Udacity fullstack nanodegree program.
+                                This webpage will showcase all of my project, skillset and experience gained during this nanodegree program.
+                            </p1>
+                          </div>
+
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+
+                        </div>
+                          
+                      </div>
+
+                    </div>
 
             </div>
 
-          <hr/>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
 
     </body>
+
 </html>
